@@ -3,9 +3,9 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light; /* Forcer le mode jour */
+  color: #213547; /* Couleur de texte pour le mode jour */
+  background-color: #ffffff; /* Couleur de fond pour le mode jour */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -25,7 +25,6 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -42,33 +41,18 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #0f172a;
   cursor: pointer;
   transition: border-color 0.25s;
-  margin: 0.1em;
+  margin-right: 0.5em;
 }
 button:hover {
-  border-color: #0713ea;
+  border-color: #646cff;
+  background-color: #444444;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #0f172a;
-  }
-  button:hover {
-    background-color: #444444;
-  }
 }
 
 @import "tailwindcss";
