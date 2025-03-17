@@ -6,7 +6,7 @@ import Rapport from './pages/Rapport';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/veille_techno_blockchain_react_app">
       <div className="p-4">
         <nav className="mb-6">
           <Link to="/" className="mr-4 text-blue-500">Articles</Link>
