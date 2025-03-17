@@ -11,14 +11,13 @@ const Home = () => {
         <section className="mt-4">
             <h2 className="text-xl font-semibold">🔍 Présentation du projet</h2>
             <p className="mt-2 text-gray-700">
-                La blockchain est souvent associée aux cryptomonnaies, mais son potentiel va bien au-delà. Ce projet de veille technologique explore les usages innovants de cette technologie dans divers secteurs économiques et sociétaux. De la finance à la logistique, en passant par la santé et l’identité numérique, découvrez comment la blockchain transforme les pratiques et ouvre de nouvelles perspectives.
-            </p>
+                La blockchain est une technologie dont l’essor a été largement médiatisé avec la montée en popularité des crypto-monnaies aux alentours de 2020. Cependant, son potentiel dépasse largement le cadre des actifs numériques. Ce projet de veille technologique vise à explorer les usages innovants de cette technologie dans divers secteurs économiques et sociétaux. De [...] à la [...], en passant par la [...], l’[...] ou encore l[...], nous analyserons comment la blockchain transforme les pratiques existantes et ouvre de nouvelles perspectives.</p>
         </section>
         <br />
         <section className="mt-4">
             <h2 className="text-xl font-semibold">📌 Objectifs</h2>
             <ul className="mt-2 list-disc list-inside text-gray-700">
-                <li>Identifier les cas d’usage concrets et innovants de la blockchain.</li>
+                <li>Identifier des cas d’usage concrets et innovants de la blockchain dans différents secteurs.</li>
                 <li>Comprendre l’impact de cette technologie sur les modèles économiques existants.</li>
                 <li>Explorer les tendances et les perspectives d’évolution.</li>
             </ul>
