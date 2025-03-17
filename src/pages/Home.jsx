@@ -96,13 +96,12 @@ const Home = () => {
         {categories.map((cat) => (
           <Button
             key={cat}
-            className={`mr-2 ${
-              filter === cat ? "bg-black text-white" : "bg-gray-600 text-white"
-            }`}
             onClick={() => setFilter(cat)}
+            isActive={filter === cat} // Ajoutez cette prop
+            className="mr-2" // Vous pouvez toujours passer des classes supplémentaires si nécessaire
           >
             {cat}
-          </Button>
+        </Button>
         ))}
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
