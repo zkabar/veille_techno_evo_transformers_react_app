@@ -11,7 +11,7 @@ const Home = () => {
         <section className="mt-4">
             <h2 className="text-xl font-semibold">🔍 Présentation du projet</h2>
             <p className="mt-2 text-gray-700">
-                La blockchain est une technologie dont l’essor a été largement médiatisé avec la montée en popularité des crypto-monnaies aux alentours de 2020. Cependant, son potentiel dépasse largement le cadre des actifs numériques. Ce projet de veille technologique vise à explorer les usages innovants de cette technologie dans divers secteurs économiques et sociétaux. De [...] à la [...], en passant par la [...], l’[...] ou encore l[...], nous analyserons comment la blockchain transforme les pratiques existantes et ouvre de nouvelles perspectives.</p>
+                La blockchain est une technologie dont l’essor a été largement médiatisé avec la montée en popularité des crypto-monnaies aux alentours de 2020. Cependant, son potentiel dépasse largement le cadre des actifs numériques. Ce projet de veille technologique vise à explorer les usages innovants de cette technologie dans divers secteurs économiques et sociétaux. De l'immobilier à la finance, en passant par la santé, la supply chain ou encore l'IoT, nous analyserons comment la blockchain transforme les pratiques existantes et ouvre de nouvelles perspectives.</p>
         </section>
         <br />
         <section className="mt-4">
@@ -28,6 +28,7 @@ const Home = () => {
             <p className="mt-2 text-gray-700">
                 À travers cette veille, l'idée est de mettre en lumière les avancées récentes et les transformations majeures apportées par la blockchain, afin d’aider à mieux appréhender son rôle dans la société de demain.
             </p>
+            <p className="mt-2 text-gray-700">Cette veille est réalisée dans le cadre du cours <em>Nouvelles technologies de l'information et de la communication</em> à l'École Centrale de Lyon.</p>
         </section>
       </div>
     );
